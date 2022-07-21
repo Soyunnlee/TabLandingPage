@@ -1,0 +1,70 @@
+.cardposition{
+    @apply flex justify-center space-x-20
+  }
+  
+  .card{
+    @apply rounded-lg shadow-lg bg-white max-w-[300px] pt-4 h-[270px]
+    md:h-[315px];
+  }
+  
+  .card img {
+    @apply py-6 px-6 
+  }
+  
+  .card-content{
+    @apply px-6 py-5
+  }
+  /* title */
+  .card-content h5{
+    @apply font-bold mb-2 inline-block text-base
+    md:text-lg
+  }
+  /* date */
+  .card-content span {
+    @apply text-[9px] font-medium pl-1.5 text-gray-500
+  }
+  /* content */
+  .card-content p {
+    @apply text-gray-700 mb-4 text-sm
+    md:text-base
+  }
+  
+  .hiddencard1{
+    @apply hidden
+    md:block
+  }
+  
+  .hiddencard2{
+    @apply hidden
+    lg:block
+  }
+  
+  .contentposition{
+    @apply mt-5 w-full px-3 m-auto
+    /* Mobile */
+    md:w-[90%] md:mt-10
+    /* Tablet */
+    lg:w-[80%] lg:mt-10 
+    /* Pc */
+    xl:w-[60%]
+  }
+  
+  .content{
+    @apply py-2 border-b
+    lg:px-6 lg:py-5
+  }
+  /* title */
+  .content h5{
+    @apply mb-2 inline-block text-base font-bold
+    md:text-lg
+  }
+  /* date */
+  .content span {
+    @apply text-[9px] font-medium pl-3 text-gray-500
+  }
+  /* content */
+  .content p {
+    @apply text-gray-700 mb-4 text-sm
+    /* Mobile */
+    md:text-base
+  }

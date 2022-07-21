@@ -1,0 +1,51 @@
+.tableposition{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  table{ 
+    @apply text-center whitespace-nowrap   
+  }
+  
+  thead {
+    @apply border-b bg-gray-50;
+  }
+  
+  /* Thead Title */
+  .theadtitle{
+    @apply py-4 font-semibold text-xs px-3
+    /* Tablet */
+    md:text-sm md:px-6;
+    color:#808080;
+  }
+  
+  /* 종목명 */
+  .stocks{
+    @apply font-bold py-4 text-left text-xs px-3 
+    /* Tablet */
+    md:text-sm md:px-6 ;
+  }
+  
+  /* 전일비 , 기준가 , 권리 시가총액*/
+  .fulltime{
+    @apply px-3 py-4 text-right font-semibold text-xs
+    /* Tablet */
+    md:text-sm md:px-6;
+  }
+  
+  /* 등락율 */
+  .fluctuations{
+    @apply font-semibold px-3 py-4 text-xs
+    /* Tablet */
+    md:text-sm md:px-6;
+  }
+  
+  /* 권리시가총액 모바일 , pc None*/
+  .total{
+    @apply hidden
+    /* Tablet */
+    md:block;
+  }
+  

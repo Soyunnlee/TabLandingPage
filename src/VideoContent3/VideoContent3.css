@@ -1,0 +1,79 @@
+.main-wrapper{
+    @apply 
+    /* Mobile , Tablet */
+    bg-[#fcfaf6] h-screen flex items-center flex-col justify-center
+    /* Pc */
+    xl:flex-row xl:justify-evenly
+    ;
+  }
+  
+  /* Text */
+  .textbox{
+    @apply 
+    /* Mobile , Tablet*/
+    flex flex-col mt-14 text-center
+    /* Pc */
+    xl:text-left 
+  }
+  .textbox h1{
+    @apply  
+    /* Mobile */
+    text-[24px] font-extrabold 
+    /* Tablet , Pc */ 
+    md:font-bold md:text-[34px] md:leading-snug
+    xl:py-2
+    ;
+  }
+  .textbox p{
+    @apply 
+    /* Mobile */
+    text-gray-700 text-[14px] mt-2 font-semibold
+    /* Tablet , Pc */
+    md:text-[20px] md:py-2 md:font-medium
+    ;
+  }
+  
+  /* Video */
+  .video-wrapper{
+    @apply 
+    xl:mt-[95px]
+  }
+  .video-wrapper video{ 
+    @apply 
+    /* Mobile */
+    w-[220px]
+    /* Tablet */
+    md:w-[320px] 
+    /* Pc */
+    xl:w-[380px] 
+  }
+  
+  
+  /* Btn */
+  .btn-wrapper{
+    @apply 
+    /* Mobile , Tablet , PC */
+    my-4 
+    ;
+  }
+  .btn{
+    @apply 
+    /* Mobile */
+    py-3 text-white font-bold text-sm leading-tight bg-gray-800 hover:bg-gray-900 rounded transition w-[150px] hidden
+    /* Tablet */
+    md:px-6 md:text-xl md:font-semibold md:w-auto
+    /* Pc */
+    xl:block
+  }
+  
+  /* Mobile-Btn */
+  .btn2{
+    @apply 
+    /* Mobile */
+    py-3 text-white font-bold text-sm leading-tight bg-gray-800 hover:bg-gray-900 rounded transition w-[150px]
+    /* Tablet */
+    md:px-6 md:text-xl md:font-semibold md:w-auto 
+    /* Pc */
+    xl:hidden
+  }
+  

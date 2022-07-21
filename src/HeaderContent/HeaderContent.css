@@ -1,0 +1,92 @@
+.main-wrapper{
+    @apply 
+    /* Mobile */
+    bg-gray-100 h-screen flex-col flex items-center justify-center
+    /* Tablet */
+    md:flex-col md:justify-center md:flex
+    /* pc */
+    xl:flex-wrap xl:content-end xl:flex
+  }
+  
+  /* Image */
+  .img-wrapper{
+    @apply 
+    /* Mobile */
+    flex items-center justify-center
+    /* Tablet */
+    md:w-full md:space-x-10 md:mt-8
+    /* PC */
+    xl:w-[55%];
+  }
+  .img-position{
+    @apply 
+    /* Mobile */
+     w-40 
+    /* Tablet */
+    md:w-[210px]
+    /* pc */
+    xl:w-[240px] xl:absolute
+    ;
+  }
+  .img1{
+    @apply 
+    /* Mobile */
+    z-10 relative left-6 
+    /* Tablet,PC */
+    xl:top-[19%] xl:left-[23%] xl:fixed
+  }
+  .img2{
+    @apply 
+    /* Mobile */
+    z-50 relative right-2 top-1
+    /* PC */
+    xl:top-[26%] xl:left-[30%] xl:fixed
+  }
+  
+  /* Text */
+  
+  .textbox{
+    @apply 
+    /* Mobile */
+    flex justify-center flex-col items-center mt-14
+    /* Tablet */
+    md:flex-wrap md:items-center md:mt-12
+    /* PC */
+    xl:w-[45%]
+  }
+  .textbox p{
+    @apply 
+    /* Mobile */
+    text-gray-600 py-1 font-semibold text-[20px]
+    /* Tablet */
+    md:text-[27px] md:py-2
+    /* Pc */
+    xl:text-right;
+  }
+  .textbox h1{
+    @apply  
+    /* Mobile */
+    text-4xl text-[30px] font-extrabold
+    /* Tablet , Pc */
+    md:text-[42px] md:font-bold;
+  }
+  
+  /* Btn */
+  .btn-wrapper{
+    @apply 
+    /* Mobile */
+    my-4 flex justify-between space-x-5
+    /* Tablet */
+    md:space-x-10 md:my-11
+    /* Pc */
+    xl:space-x-7
+    ;
+  }
+  .btn{
+    @apply 
+    /* Mobile */
+    py-3 text-white font-bold text-sm leading-tight bg-gray-800 hover:bg-gray-900 rounded transition w-[150px]
+    /* Tablet , Pc */
+    md:px-7 md:py-3 md:text-xl md:font-semibold md:w-auto
+  }
+  
